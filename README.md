@@ -1,17 +1,47 @@
-# first_flutter_app
+# Flutter_Lab2
 
-A new Flutter project.
+Первое Flutter-приложение, созданное в рамках лабораторной работы №2. Приложение отображает текст "Hello world!" с градиентным фоном и стилизованным текстом.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **Имя:** Богданов Иван и Шумила Диана
+- **Группа:** ИСП-233
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.41.2
+- **Dart:** 3.11.0
+- **Платформа:** Web (Edge/Chrome)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/step9.jpg)
+
+## Как запустить
+
+```bash
+# 1. Клонировать репозиторий
+git clone <URL вашего репозитория>
+
+# 2. Перейти в папку проекта
+cd first_flutter_app
+
+# 3. Установить зависимости
+flutter pub get
+
+# 4. Запустить приложение в браузере
+flutter run -d edge
+```
+### Что изучили
+Создание и запуск Flutter-проекта
+
+Структура виджетов и дерево виджетов
+
+Работа с основными виджетами: MaterialApp, Scaffold, Container, Center, Text
+
+Стилизация текста через TextStyle
+
+Оформление фона через BoxDecoration и LinearGradient
+
+Hot Reload и работа с DevTools
